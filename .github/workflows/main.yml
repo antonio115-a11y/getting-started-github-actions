@@ -41,6 +41,8 @@ jobs:
           git --version
           echo what about iac tools ?
           terraform --version
+          echo do you have docker installed ?
+          docker --version
           
           
           
