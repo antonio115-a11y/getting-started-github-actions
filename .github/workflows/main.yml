@@ -43,6 +43,10 @@ jobs:
           terraform --version
           echo do you have docker installed ?
           docker --version
+          echo How is the disc laid out ?
+          df
+          echo What environment variables are available ?
+          env
           
           
           
