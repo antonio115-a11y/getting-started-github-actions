@@ -46,6 +46,9 @@ jobs:
           df
           echo 7. What environment variables are available ?
           env
+          echo 8. What is workspace location ?
+          $RUNNER_WORKSPACE
+      
           
           
           
