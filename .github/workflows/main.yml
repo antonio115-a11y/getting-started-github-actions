@@ -32,20 +32,19 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo What is in this directory
+          1.echo What is in this directory
           ls -a
-          echo is Python isntalled ?
-          python3 --version
-          echo 
-          echo is git installed ?
+          2.echo is Python isntalled ?
+          python3 --version 
+          3.echo is git installed ?
           git --version
-          echo what about iac tools ?
+          4.echo what about iac tools ?
           terraform --version
-          echo do you have docker installed ?
+          5.echo do you have docker installed ?
           docker --version
-          echo How is the disc laid out ?
+          6.echo How is the disc laid out ?
           df
-          echo What environment variables are available ?
+          7.echo What environment variables are available ?
           env
           
           
