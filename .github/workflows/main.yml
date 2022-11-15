@@ -45,7 +45,7 @@ jobs:
         with:
            path: ~/.m2
            key: ${{ runner.os }}-m2-${{ hashFiles('**read.me') }}
-           restore-key: ${{ runnes.os }}-m2
+           restore-key: ${{ runner.os }}-m2
            
       - name: Step 5 List all the environments variables
         run: env
