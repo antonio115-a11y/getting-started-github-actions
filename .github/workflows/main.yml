@@ -38,7 +38,7 @@ jobs:
         run: |
          echo nothing to see in the multi-line script
          echo Here is what is in the folder 
-         ls -a 
+         ls 
       
 
      
