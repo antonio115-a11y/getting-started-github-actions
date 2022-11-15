@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest,windows-latest,macos-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -35,6 +35,10 @@ jobs:
          echo nothing to see in the multi-line script
          echo Here is what is in the folder 
          ls -a 
+         build:
+
+     
+    
           
           
           
